@@ -35,11 +35,11 @@ image:
   # If using a private repository, the imagePullSecrets to use
   # pullSecrets:
   #   - name: my-repo-secret
-# searchNodes:
-#   image:
-#     repository: 063557484761.dkr.ecr.us-east-1.amazonaws.com/soanr-enterprice
-#     tag: 10.5.0-datacenter
-#     pullPolicy: IfNotPresent
+searchNodes:
+  image:
+    repository: 063557484761.dkr.ecr.us-east-1.amazonaws.com/soanr-enterprice
+    tag: 10.5.1-dc
+    pullPolicy: IfNotPresent
 # Set security context for sonarqube pod
 securityContext:
   fsGroup: 0
