@@ -30,7 +30,7 @@ edition: "community"
 
 image:
   repository: 063557484761.dkr.ecr.us-east-1.amazonaws.com/soanr-enterprice
-  tag: 10.5.1-dc
+  tag: 10.5.0
   pullPolicy: IfNotPresent
   # If using a private repository, the imagePullSecrets to use
   # pullSecrets:
@@ -38,7 +38,7 @@ image:
 searchNodes:
   image:
     repository: 063557484761.dkr.ecr.us-east-1.amazonaws.com/soanr-enterprice
-    tag: 10.5.1-dc
+    tag: 10.5.0
     pullPolicy: IfNotPresent
 # Set security context for sonarqube pod
 securityContext:
